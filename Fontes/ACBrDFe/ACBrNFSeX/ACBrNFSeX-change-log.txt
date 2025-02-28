@@ -42,8 +42,88 @@ Símbolo : Significado
 [*]     : Recurso modificado/melhorado
 [-]     : Correção de Bug (assim esperamos)
 
+
+27/02/2025
+-- PadraoNacional.GravarXml --
+[*] #TK-5828: Alteração visando contemplar a Reforma Tributária.
+  Por: Italo Giurizzato Junior
+
+26/02/2025
+-- Diversos --
+[+] #TK-6673: Implementado o provedor Aspec versão 1.00
+  Por: Willian Delan/Italo Giurizzato Junior
+-- ACBrNFSeXServicos --
+[*] #TK-6668: A cidade de Tres Lagos/MS trocou a URL de produção o provedor continua o mesmo.
+  Por: Fabio Tellini
+-- IPM.GravarXml --
+[*] #TK-6677: Alteração visando gerar a tag nfse_teste para as versões 1.00 e 1.01
+  Por: Maico Smaniotto
+-- ACBrNFSeXServicos --
+[*] #TK-6677: Incluído as URLs dos link da cidade de Santa Rosa/RS.
+  Por: Maico Smaniotto
+[+] #TK-6676: Incluída a cidade de Congonhas do Norte/MG, o provedor é EL versão 1.00
+  Por: Willian Delan
+[+] #TK-6674: Incluída a cidade de Campos do Jordão/SP, o provedor é Prescon versão 1.00
+  Por: Raphael Sanini
+[+] #TK-6673: Incluída a cidade de Jacunda/PA, o provedor é Aspec versão 1.00
+  Por: Willian Delan
+[+] #TK-6672: Incluída a cidade de Virginopolis/MG, o provedor é GestaoISS versão 2.02
+  Por: Facil Sistemas Ltda
+[*] #TK-6671: A cidade de Campo Novo/RS trocou de provedor, agora é IPM versão 1.01
+  Por: Pablo Cerbaro
+[+] #TK-6670: Incluída a cidade de Santa Fé do Araguaia/TO, o provedor é MegaSoft versão 2.00
+  Por: Jhonlenon Ribeiro
+
+24/02/2025
+-- ACBrNFSeXServicos --
+[*] #TK-6663: A cidade de Senador Canedo/GO trocou a URL de produção o provedor continua o mesmo.
+  Por: Prime Software
+[+] #TK-6661: Incluída a cidade de Moema/MG, o provedor é Pronim versão 2.02
+  Por: Bruno Italo
+
+23/02/2025
+-- ISSCambe.LerXml --
+[*] #TK-6656: Incluída a leitura da tag: statusNFSe.
+  Por: Marciano Bandeira
+-- ACBrNFSeXProviderABRASFv2/SimplISS.Provider --
+[*] #TK-6654: Alteração visando ler o grupo de NfseCancelada corretamente.
+  Por: Jhoni Conzatti/Italo Giurizzato Junior
+-- ACBrNFSeXProviderABRASFv1/Thema.Provider --
+[*] #TK-6653: Alteração visando ler o grupo de NfseCancelada corretamente.
+  Por: Jhoni Conzatti/Italo Giurizzato Junior
+-- ISSBarueri.GravarXml --
+[*] #TK-6651: Alteração visando gerar o arquivo com o código do pais do tomador
+    extrangeiro.
+  Por: Breno Silva
+-- IPM.GravarXml/IPM.LerXml --
+[*] #TK-6650: Incluido o campo para gerar e ler o valor do desconto incondicionado.
+  Por: Willian Carminatt
+-- ACBrNFSeXNotasFiscais/SmarAPD.LerXml --
+[*] #TK-6649: Ajustes para ler corretamente um lote de notas.
+  Por: Ray Hildebrant
+-- ACBrNFSeXServicos --
+[*] #TK-6659: A cidade de Embu-Guaçu/SP vai continuar usando o Ginfes até 01/04/2025
+    quando vai ser alterado para o Giss.
+  Por: C4Dev
+[*] #TK-6657: A cidade de Pirajui/SP trocou a URL de produção o provedor continua o mesmo.
+  Por: Fabio Tellini
+[*] #TK-6655: A cidade de São Felix do Araguaia/MT trocou de provedor, agora é Centi.
+  Por: Diego Reckziegel
+
+22/02/2025
+-- ISSBarueri.GravarXml/ISSBarueri.Provider --
+[*] #TK-6628: Ajustes para que seja possível o envio de um lote contendo até
+    1000 RPS.
+  Por: Italo Giurizzato Junior
+-- BHISS.Provider --
+[*] #TK-6621: Possível solução para a leitura do XML de retorno que não esta
+    em UTF-8
+  Por: Italo Giurizzato Junior
+
 20/02/2025
 -- ACBrNFSeXServicos --
+[+] Incluída a cidade de Inhacora/RS, o provedor é IPM versão 1.01
+  Por: HPR Sistemas
 [+] #TK-6619: Incluída a cidade de Nova Mamore/RO, o provedor é Fiorilli.
   Por: C4Dev - Maiquel
 
